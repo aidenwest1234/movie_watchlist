@@ -1,0 +1,269 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  background-color: rgb(16, 16, 16);
+}
+
+#link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  
+}
+
+a:link {
+  color: #ffff ;
+}
+
+a:visited {
+  color: #ffff;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: #660708;
+}
+
+#link :hover{
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: 20vh;
+  background-image: url("images/Moon-background.png");
+}
+
+ .container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+}
+
+#title {
+  width: 20vh;
+  display: flex;
+  justify-content: start;
+  color: white;
+  font-size: 55px;
+}
+
+#link-btn{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.search-bar-container {
+  width: 80vh;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#search-input, #search-button{
+  box-sizing: border-box;
+  align-items: center;
+  border: none;
+  background: rgb(39, 38, 38);
+  color: #ffff;
+  padding: 15px 25px 15px 1em;
+  font-size: 25px;
+  border: none;
+}
+
+ #search-button {
+  background-image: linear-gradient(to right, #7209b7, #b5179e);
+  cursor: pointer;
+}
+
+.resultsContainer {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#ffff;
+  padding: 0px 170px;
+  width: auto;
+  margin: 0;
+  margin-bottom: 10vh;
+} 
+
+.divider{
+  width: 120vh;
+}
+
+.Card{
+  width: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.Card-text {
+  color: #ffff;
+  margin-left: 50px;
+}
+
+.Card-header{
+  display: flex;
+  font-size: 12px;
+}
+
+#ratings{
+  margin: 0;
+  font-size: 14px;
+  margin-top: 23px;
+  margin-left: 25px;
+}
+
+.Card-details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+}
+
+.watch-list{
+  margin: 0;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.Movie-desc{
+  font-size: 20px;
+}
+
+#poster{
+  width: 130px;
+  height: 200px;
+}
+
+.watchlist-Btn {
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+hr{
+  margin: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+#start-Searching-image {
+  width: 10vh;
+}
+
+#start-Searching-text {
+  font-family: 'Cinzel Decorative', cursive;
+  height: 40px;
+  color: #ffff;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 25px;
+}
+
+#no-results {
+  display: flex;
+  justify-content: center;
+  top: 25em;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+}
+
+#watchlist-no-results{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 15vh;
+  color: #403d39;
+}
+
+#watchlist-title {
+  display: flex;
+  justify-content: center;
+  height: -20px;
+  color: white;
+  font-size: 50px;
+  margin: 55px;
+}
+
+#Watchlistlink-btn{
+  display:flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffff ;
+}
+
+a:visited {
+  color: #ffff;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: #660708;
+}
+
+#link :hover{
+  cursor: pointer;
+  
+}
+
+#main-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#ffff;
+  padding: 0px 170px;
+  width: auto;
+  margin: 0;
+  margin-bottom: 10vh;
+}
+
+#no-results-link {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.empty {
+  color: #5f6062;
+  font-size: 40px;
+}
+
+#Refresh-btn {
+  box-sizing: border-box;
+  align-items: center;
+  border: none;
+  background: rgb(39, 38, 38);
+  color: #ffff;
+  padding: 15px 25px 15px 1em;
+  font-size: 25px;
+  border: none;
+  background-image: linear-gradient(to right, #7209b7, #b5179e);
+  cursor: pointer;
+  margin-right: 35vh;
+  margin-top: 10vh;
+}
